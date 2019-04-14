@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: com.login.loginSystem.LoginSystemApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 19.631 s <<< FAILURE! - in com.login.loginSystem.LoginSystemApplicationTests
+whenGetCreatedUserByUserName_thenOK(com.login.loginSystem.LoginSystemApplicationTests)  Time elapsed: 4.707 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.login.loginSystem.LoginSystemApplicationTests.createUserAsUri(LoginSystemApplicationTests.java:33)
+	at com.login.loginSystem.LoginSystemApplicationTests.whenGetCreatedUserByUserName_thenOK(LoginSystemApplicationTests.java:51)
+
+whenCreateNewUser_thenCreated(com.login.loginSystem.LoginSystemApplicationTests)  Time elapsed: 2.039 s  <<< ERROR!
+java.net.ConnectException: Connection refused: connect
+	at com.login.loginSystem.LoginSystemApplicationTests.whenCreateNewUser_thenCreated(LoginSystemApplicationTests.java:43)
+
